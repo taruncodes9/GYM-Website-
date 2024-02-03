@@ -13,122 +13,129 @@
 <style>
 /* CSS Reset*/
 
-    body{
-        font-family: 'Balsamiq Sans', cursive;
-        margin: 0px;
-        padding: 0px;
-        background-image: url('gym2.jpg');
-        color: white;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        font-weight: bold;
-        
-    }
-    .left{
-       /*  border: 2px solid red; */
-        display:  inline-block;
-        position: absolute;
-        left: 60px;
-        top: 20px;
-        font-family: 'Balsamiq Sans', cursive;
-    }
-    .left img{
-        width: 70px;
-        filter: invert(100%);
-    }
-    .left div{
-        text-align: center;
-        line-height: 0px;
-        font-size: 20px;
-    }
+  body {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('gym2.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: bold;
+}
 
-    .mid{
-      /*  border: 2px solid green; */
-        display: block;
-        width: 36%;
-        margin: 29px auto;
-        text-decoration: none;
-        font-family: 'Balsamiq Sans', cursive;
-    }
-    .right{
-        /* border: 2px solid yellow; */
-        display: inline-block;
-        position: absolute;
-        right: 34px;
-        top: 43px;
-        font-family: 'Balsamiq Sans', cursive;
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
 
-    }
-    .navbar{
-        display: inline-block;
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
 
+.left img {
+    width: 70px;
+    filter: invert(100%);
+}
 
-    }
-    .navbar li{
-        display: inline-block;
-        font-size: 18px;
+.left div {
+    text-align: center;
+    line-height: 0px;
+    font-size: 20px;
+}
 
+.mid {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
 
-    }
-    .navbar li a{
-        color: white;
-        text-decoration: none;
-        padding: 34px 23px;
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    font-family: 'Balsamiq Sans', cursive;
+}
 
-    }
-    .navbar li a:hover{
-        text-decoration: underline;
-        color: gray;
+.navbar {
+    display: inline-block;
+    margin-top: 0;
+}
 
-    }
-    .btn{
-        margin:0px 9px;
-        background-color:black;
-        color: white;
-        padding: 4px 14px;
-        border: 2px solid gray;
-        border-radius: 8px;
-        font-size: 17px;
-        cursor: pointer;
-    }
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
 
-    .btn:hover{
-        background-color: rgb(97, 97, 97);
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
 
-    }
+.navbar li a:hover {
+    text-decoration: underline;
+    color: gray;
+}
 
-    .container{
-      /*  border: 2px solid green; */
-        margin: 106px 80px;
-        padding: 75px;
-        width: 30%;
-        border-radius:20px;
-        border-color: white;
-    }
-    .form-group input{
-        text-align: center;
-        display: block;
-        width: 506px;
-        padding: 6px;
-        border-radius:8px;
-        font-size: 25px;
-        margin: 11px auto;
-        font-family: 'Balsamiq Sans', cursive;
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
 
+.btn:hover {
+    background-color: rgb(97, 97, 97);
+}
 
-    }
+.container {
+    margin: 106px 80px;
+    padding: 75px;
+    width: 30%;
+    border-radius: 20px;
+    border-color: white;
+    position: fixed; /* Make the form fixed */
+    top: 2%; /* Adjust the top position as needed */
+    left: 0%; /* Set the form to the left */
+}
 
-    .container h1{
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 506px;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 25px;
+    margin: 11px auto;
+    font-family: 'Balsamiq Sans', cursive;
+}
 
-        text-align: center;
-    }
+.container h1 {
+    text-align: center;
+}
 
-    .container button{
-        display: block;
-        width: 103%;
-        margin: 20px auto;
-    }
+.container button {
+    display: block;
+    width: 103%;
+    margin: 20px auto;
+}
+
 
 </style>
 <body>
